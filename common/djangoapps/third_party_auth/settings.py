@@ -64,6 +64,7 @@ def apply_settings(django_settings):
         'social_core.pipeline.social_auth.load_extra_data',
         'social_core.pipeline.user.user_details',
         'common.djangoapps.third_party_auth.pipeline.user_details_force_sync',
+        'addons.kulearn.common.auth_pipeline.save_organizations',
         'common.djangoapps.third_party_auth.pipeline.set_id_verification_status',
         'common.djangoapps.third_party_auth.pipeline.set_logged_in_cookies',
         'common.djangoapps.third_party_auth.pipeline.login_analytics',
